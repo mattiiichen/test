@@ -5,8 +5,9 @@ var Q = require('q');
 
 
 const fs = require('fs');
-const util = require('util');
-var importFile = 'C:\\inetpub\\ftproot\\LocalUser\\agrouser\\2017-01-16-農試工字第1052146714號(生產追溯).xlsx';
+
+var importFile = '/Users/mattchen/Desktop/test/inetpub/ftproot/LocalUser/agrouser/2016-11-30-農試工字第1052146714號.xlsx';
+// var importFile = 'C:\\inetpub\\ftproot\\LocalUser\\agrouser\\2016-11-30-農試工字第1052146714號.xlsx';
 
 
 Q.promise(function (resolve, reject) {
@@ -37,4 +38,4 @@ Q.promise(function (resolve, reject) {
 }).then(function (value) {
     console.log(value);
     console.log('bbbbbbbbb');
-})
+});
