@@ -26,9 +26,6 @@ function dataSync(data, cb){
 
 }
 
-
-
-
 function dataSync2(data, cb){
 
     function loop2(data, j ){

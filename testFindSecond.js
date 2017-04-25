@@ -7,7 +7,7 @@ var arr = [1, 45, 23, 3, 6, 555, 2, 777, 7, 234, 56, 666];
 Array.prototype.second = function () {
 
     var max =0;
-    var second;
+    var second=0 ;
     for (var i = 0; i < this.length; i++) {
         var n = this[i];
         if (n > max) {
@@ -21,6 +21,6 @@ Array.prototype.second = function () {
     }
 
     return second;
-}
+};
 
 console.log(arr.second()); 
